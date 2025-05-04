@@ -17,6 +17,7 @@
       text-align: center;
       color: #5e35b1;
       margin-bottom: 0.3em;
+      page-break-after: avoid;
     }
     h2 {
       text-align: center;
@@ -25,11 +26,13 @@
       font-style: italic;
       margin-top: 0;
       margin-bottom: 1em;
+      page-break-after: avoid;
     }
     .date {
       text-align: center;
       color: #666;
       margin-bottom: 1.5em;
+      page-break-after: avoid;
     }
     h3 {
       color: #424242;
@@ -37,6 +40,7 @@
       margin-bottom: 0.5em;
       border-left: 3px solid #5e35b1;
       padding-left: 0.5em;
+      page-break-after: avoid;
     }
     .section {
       background: #ffffff;
@@ -44,6 +48,8 @@
       padding: 1rem;
       margin: 1rem 0;
       border-radius: 6px;
+      break-inside: avoid;
+      page-break-inside: avoid;
     }
     .section:nth-child(odd) h3 {
       border-left-color: #42a5f5;
@@ -64,6 +70,7 @@
       border: none;
       border-radius: 6px;
       cursor: pointer;
+      page-break-after: avoid;
     }
     #download-btn:hover {
       background-color: #512da8;
@@ -73,6 +80,7 @@
       font-size: 0.85em;
       color: #777;
       margin: 2em 0 1em;
+      page-break-before: avoid;
     }
     @media (max-width: 600px) {
       body { padding: 1rem; }
@@ -85,6 +93,7 @@
 
   <h1>How Do Smart Chatbots Work? 🤖</h1>
   <h2>A Fun Explanation for Kids! 🧠</h2>
+  <div class="date">May 4, 2025</div>
   <button id="download-btn">Download as PDF 📥</button>
 
   <div class="section">
